@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="pipe right"></div>
 
     <div class="login-box">
-        <div class="title">LOGIN</div>
+        <div class="title">GAME LOGIN</div>
 
         <?php if ($error): ?>
             <div class="error"><?php echo htmlspecialchars($error); ?></div>
